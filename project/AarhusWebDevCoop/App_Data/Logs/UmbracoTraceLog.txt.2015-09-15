@@ -1,0 +1,786 @@
+﻿2015-09-15 15:38:21,469 [18] INFO  Umbraco.Core.CoreBootManager - [P1460/T1/D2] Umbraco 7.2.8 application starting on GABOR-PC
+2015-09-15 15:38:21,552 [18] INFO  Umbraco.Core.PluginManager - [P1460/T1/D2] Determining hash of code files on disk
+2015-09-15 15:38:21,566 [18] INFO  Umbraco.Core.PluginManager - [P1460/T1/D2] Hash determined (took 12ms)
+2015-09-15 15:38:21,572 [18] INFO  Umbraco.Core.PluginManager - [P1460/T1/D2] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-09-15 15:38:21,917 [18] INFO  Umbraco.Core.PluginManager - [P1460/T1/D2] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 37 (took 344ms)
+2015-09-15 15:38:22,004 [18] INFO  Umbraco.Core.PluginManager - [P1460/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-09-15 15:38:22,008 [18] INFO  Umbraco.Core.PluginManager - [P1460/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+2015-09-15 15:38:22,008 [18] INFO  Umbraco.Core.PluginManager - [P1460/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2015-09-15 15:38:22,013 [18] INFO  Umbraco.Core.PluginManager - [P1460/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 4ms)
+2015-09-15 15:38:22,033 [18] INFO  Umbraco.Core.PluginManager - [P1460/T1/D2] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-09-15 15:38:22,037 [18] INFO  Umbraco.Core.PluginManager - [P1460/T1/D2] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 4ms)
+2015-09-15 15:38:22,038 [18] INFO  Umbraco.Core.PluginManager - [P1460/T1/D2] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-09-15 15:38:22,042 [18] INFO  Umbraco.Core.PluginManager - [P1460/T1/D2] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 35 (took 4ms)
+2015-09-15 15:38:22,109 [18] INFO  Umbraco.Core.PluginManager - [P1460/T1/D2] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-09-15 15:38:22,113 [18] INFO  Umbraco.Core.PluginManager - [P1460/T1/D2] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 3ms)
+2015-09-15 15:38:22,114 [18] INFO  Umbraco.Core.PluginManager - [P1460/T1/D2] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-09-15 15:38:22,117 [18] INFO  Umbraco.Core.PluginManager - [P1460/T1/D2] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 3ms)
+2015-09-15 15:38:22,737 [18] INFO  Umbraco.Core.CoreBootManager - [P1460/T1/D2] Umbraco application startup complete (took 1238ms)
+2015-09-15 15:38:23,207 [18] INFO  Umbraco.Core.ApplicationContext - [P1460/T1/D2] ApplicationUrl: http://localhost:53115/umbraco (UmbracoModule request)
+2015-09-15 15:38:58,367 [18] INFO  Umbraco.Web.Install.Controllers.InstallApiController - [P1460/T1/D2] Executing installation step: Permissions
+2015-09-15 15:38:58,390 [18] INFO  Umbraco.Web.Install.Controllers.InstallApiController - [P1460/T1/D2] Step completed (took 22ms)
+2015-09-15 15:38:58,412 [18] INFO  Umbraco.Web.Install.Controllers.InstallApiController - [P1460/T1/D2] Executing installation step: DatabaseConfigure
+2015-09-15 15:38:58,420 [18] INFO  Umbraco.Core.DatabaseContext - [P1460/T1/D2] Configured a new ConnectionString using the 'System.Data.SqlServerCe.4.0' provider.
+2015-09-15 15:38:58,654 [18] INFO  Umbraco.Web.Install.Controllers.InstallApiController - [P1460/T1/D2] Step completed (took 241ms)
+2015-09-15 15:38:59,047 [18] ERROR UmbracoExamine.DataServices.UmbracoLogService - [P1460/T1/D2] Provider=InternalMemberIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index doesn't exist!,, IndexSet: InternalMemberIndexSet
+2015-09-15 15:38:59,548 [18] ERROR UmbracoExamine.DataServices.UmbracoLogService - [P1460/T1/D2] Provider=InternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index doesn't exist!,, IndexSet: InternalIndexSet
+2015-09-15 15:38:59,673 [26] INFO  Umbraco.Core.CoreBootManager - [P1460/T25/D3] Umbraco 7.2.8 application starting on GABOR-PC
+2015-09-15 15:38:59,746 [26] INFO  Umbraco.Core.PluginManager - [P1460/T25/D3] Determining hash of code files on disk
+2015-09-15 15:38:59,758 [26] INFO  Umbraco.Core.PluginManager - [P1460/T25/D3] Hash determined (took 10ms)
+2015-09-15 15:38:59,762 [26] INFO  Umbraco.Core.PluginManager - [P1460/T25/D3] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-09-15 15:38:59,843 [26] INFO  Umbraco.Core.PluginManager - [P1460/T25/D3] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 37 (took 79ms)
+2015-09-15 15:38:59,967 [26] INFO  Umbraco.Core.PluginManager - [P1460/T25/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-09-15 15:38:59,968 [26] INFO  Umbraco.Core.PluginManager - [P1460/T25/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+2015-09-15 15:38:59,969 [26] INFO  Umbraco.Core.PluginManager - [P1460/T25/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2015-09-15 15:38:59,970 [26] INFO  Umbraco.Core.PluginManager - [P1460/T25/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 1ms)
+2015-09-15 15:38:59,983 [26] INFO  Umbraco.Core.PluginManager - [P1460/T25/D3] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-09-15 15:38:59,984 [26] INFO  Umbraco.Core.PluginManager - [P1460/T25/D3] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 0ms)
+2015-09-15 15:38:59,984 [26] INFO  Umbraco.Core.PluginManager - [P1460/T25/D3] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-09-15 15:38:59,989 [26] INFO  Umbraco.Core.PluginManager - [P1460/T25/D3] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 35 (took 4ms)
+2015-09-15 15:39:00,041 [26] INFO  Umbraco.Core.PluginManager - [P1460/T25/D3] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-09-15 15:39:00,041 [26] INFO  Umbraco.Core.PluginManager - [P1460/T25/D3] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2015-09-15 15:39:00,042 [26] INFO  Umbraco.Core.PluginManager - [P1460/T25/D3] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-09-15 15:39:00,042 [26] INFO  Umbraco.Core.PluginManager - [P1460/T25/D3] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2015-09-15 15:39:00,048 [18] ERROR UmbracoExamine.DataServices.UmbracoLogService - [P1460/T1/D2] Provider=ExternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index doesn't exist!,, IndexSet: ExternalIndexSet
+2015-09-15 15:39:00,753 [26] INFO  Umbraco.Core.CoreBootManager - [P1460/T25/D3] Umbraco application startup complete (took 1029ms)
+2015-09-15 15:39:02,075 [26] INFO  Umbraco.Core.ApplicationContext - [P1460/T25/D3] ApplicationUrl: http://localhost:53115/umbraco (UmbracoModule request)
+2015-09-15 15:39:02,473 [26] INFO  Umbraco.Web.Install.Controllers.InstallApiController - [P1460/T25/D3] Executing installation step: DatabaseInstall
+2015-09-15 15:39:02,475 [26] INFO  Umbraco.Core.DatabaseContext - [P1460/T25/D3] Database configuration status: Started
+2015-09-15 15:39:03,003 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Initializing database schema creation
+2015-09-15 15:39:03,116 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [umbracoNode] ([id] INTEGER NOT NULL IDENTITY(1050,1),
+[trashed] BIT NOT NULL CONSTRAINT [DF_umbracoNode_trashed] DEFAULT ('0'),
+[parentID] INTEGER NOT NULL,
+[nodeUser] INTEGER NULL,
+[level] INTEGER NOT NULL,
+[path] NVARCHAR(150) NOT NULL,
+[sortOrder] INTEGER NOT NULL,
+[uniqueID] UniqueIdentifier NULL,
+[text] NVARCHAR(255) NULL,
+[nodeObjectType] UniqueIdentifier NULL,
+[createDate] DATETIME NOT NULL CONSTRAINT [DF_umbracoNode_createDate] DEFAULT (getdate()))
+2015-09-15 15:39:03,117 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [umbracoNode] ADD CONSTRAINT [PK_structure] PRIMARY KEY ([id])
+2015-09-15 15:39:03,119 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table umbracoNode
+2015-09-15 15:39:03,156 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table umbracoNode
+2015-09-15 15:39:03,157 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [umbracoNode] ADD CONSTRAINT [FK_umbracoNode_umbracoNode_id] FOREIGN KEY ([parentID]) REFERENCES [umbracoNode] ([id])
+2015-09-15 15:39:03,158 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_umbracoNodeTrashed] ON [umbracoNode] ([trashed])
+2015-09-15 15:39:03,159 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_umbracoNodeParentId] ON [umbracoNode] ([parentID])
+2015-09-15 15:39:03,159 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_umbracoNodeUniqueID] ON [umbracoNode] ([uniqueID])
+2015-09-15 15:39:03,160 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_umbracoNodeObjectType] ON [umbracoNode] ([nodeObjectType])
+2015-09-15 15:39:03,279 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'umbracoNode' was created
+2015-09-15 15:39:03,373 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [cmsContentType] ([pk] INTEGER NOT NULL IDENTITY(535,1),
+[nodeId] INTEGER NOT NULL,
+[alias] NVARCHAR(255) NULL,
+[icon] NVARCHAR(255) NULL,
+[thumbnail] NVARCHAR(255) NOT NULL CONSTRAINT [DF_cmsContentType_thumbnail] DEFAULT ('folder.png'),
+[description] NVARCHAR(1500) NULL,
+[isContainer] BIT NOT NULL CONSTRAINT [DF_cmsContentType_isContainer] DEFAULT ('0'),
+[allowAtRoot] BIT NOT NULL CONSTRAINT [DF_cmsContentType_allowAtRoot] DEFAULT ('0'))
+2015-09-15 15:39:03,374 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [cmsContentType] ADD CONSTRAINT [PK_cmsContentType] PRIMARY KEY ([pk])
+2015-09-15 15:39:03,374 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table cmsContentType
+2015-09-15 15:39:03,378 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table cmsContentType
+2015-09-15 15:39:03,379 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsContentType] ADD CONSTRAINT [FK_cmsContentType_umbracoNode_id] FOREIGN KEY ([nodeId]) REFERENCES [umbracoNode] ([id])
+2015-09-15 15:39:03,380 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_cmsContentType] ON [cmsContentType] ([nodeId])
+2015-09-15 15:39:03,381 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_cmsContentType_icon] ON [cmsContentType] ([icon])
+2015-09-15 15:39:03,447 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'cmsContentType' was created
+2015-09-15 15:39:03,542 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [cmsTemplate] ([pk] INTEGER NOT NULL IDENTITY(1,1),
+[nodeId] INTEGER NOT NULL,
+[master] INTEGER NULL,
+[alias] NVARCHAR(100) NULL,
+[design] NTEXT NOT NULL)
+2015-09-15 15:39:03,543 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [cmsTemplate] ADD CONSTRAINT [PK_cmsTemplate] PRIMARY KEY ([pk])
+2015-09-15 15:39:03,543 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table cmsTemplate
+2015-09-15 15:39:03,543 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table cmsTemplate
+2015-09-15 15:39:03,544 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsTemplate] ADD CONSTRAINT [FK_cmsTemplate_umbracoNode] FOREIGN KEY ([nodeId]) REFERENCES [umbracoNode] ([id])
+2015-09-15 15:39:03,545 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsTemplate] ADD CONSTRAINT [FK_cmsTemplate_cmsTemplate] FOREIGN KEY ([master]) REFERENCES [umbracoNode] ([id])
+2015-09-15 15:39:03,546 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_cmsTemplate_nodeId] ON [cmsTemplate] ([nodeId])
+2015-09-15 15:39:03,620 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'cmsTemplate' was created
+2015-09-15 15:39:03,721 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [cmsContent] ([pk] INTEGER NOT NULL IDENTITY(1,1),
+[nodeId] INTEGER NOT NULL,
+[contentType] INTEGER NOT NULL)
+2015-09-15 15:39:03,722 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [cmsContent] ADD CONSTRAINT [PK_cmsContent] PRIMARY KEY ([pk])
+2015-09-15 15:39:03,723 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table cmsContent
+2015-09-15 15:39:03,723 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table cmsContent
+2015-09-15 15:39:03,724 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsContent] ADD CONSTRAINT [FK_cmsContent_umbracoNode_id] FOREIGN KEY ([nodeId]) REFERENCES [umbracoNode] ([id])
+2015-09-15 15:39:03,725 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsContent] ADD CONSTRAINT [FK_cmsContent_cmsContentType_nodeId] FOREIGN KEY ([contentType]) REFERENCES [cmsContentType] ([nodeId])
+2015-09-15 15:39:03,726 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_cmsContent] ON [cmsContent] ([nodeId])
+2015-09-15 15:39:03,793 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'cmsContent' was created
+2015-09-15 15:39:03,894 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [cmsContentVersion] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[ContentId] INTEGER NOT NULL,
+[VersionId] UniqueIdentifier NOT NULL,
+[VersionDate] DATETIME NOT NULL CONSTRAINT [DF_cmsContentVersion_VersionDate] DEFAULT (getdate()),
+[LanguageLocale] NVARCHAR(10) NULL)
+2015-09-15 15:39:03,895 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [cmsContentVersion] ADD CONSTRAINT [PK_cmsContentVersion] PRIMARY KEY ([id])
+2015-09-15 15:39:03,896 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table cmsContentVersion
+2015-09-15 15:39:03,896 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table cmsContentVersion
+2015-09-15 15:39:03,897 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsContentVersion] ADD CONSTRAINT [FK_cmsContentVersion_cmsContent_nodeId] FOREIGN KEY ([ContentId]) REFERENCES [cmsContent] ([nodeId])
+2015-09-15 15:39:03,899 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_cmsContentVersion_ContentId] ON [cmsContentVersion] ([ContentId])
+2015-09-15 15:39:03,900 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_cmsContentVersion_VersionId] ON [cmsContentVersion] ([VersionId])
+2015-09-15 15:39:03,958 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'cmsContentVersion' was created
+2015-09-15 15:39:04,062 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [cmsDocument] ([nodeId] INTEGER NOT NULL,
+[published] BIT NOT NULL,
+[documentUser] INTEGER NOT NULL,
+[versionId] UniqueIdentifier NOT NULL,
+[text] NVARCHAR(255) NOT NULL,
+[releaseDate] DATETIME NULL,
+[expireDate] DATETIME NULL,
+[updateDate] DATETIME NOT NULL CONSTRAINT [DF_cmsDocument_updateDate] DEFAULT (getdate()),
+[templateId] INTEGER NULL,
+[newest] BIT NOT NULL CONSTRAINT [DF_cmsDocument_newest] DEFAULT ('0'))
+2015-09-15 15:39:04,063 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [cmsDocument] ADD CONSTRAINT [PK_cmsDocument] PRIMARY KEY ([versionId])
+2015-09-15 15:39:04,063 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table cmsDocument
+2015-09-15 15:39:04,063 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table cmsDocument
+2015-09-15 15:39:04,063 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsDocument] ADD CONSTRAINT [FK_cmsDocument_cmsContent_nodeId] FOREIGN KEY ([nodeId]) REFERENCES [cmsContent] ([nodeId])
+2015-09-15 15:39:04,064 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsDocument] ADD CONSTRAINT [FK_cmsDocument_umbracoNode_id] FOREIGN KEY ([nodeId]) REFERENCES [umbracoNode] ([id])
+2015-09-15 15:39:04,065 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsDocument] ADD CONSTRAINT [FK_cmsDocument_cmsTemplate_nodeId] FOREIGN KEY ([templateId]) REFERENCES [cmsTemplate] ([nodeId])
+2015-09-15 15:39:04,065 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_cmsDocument] ON [cmsDocument] ([nodeId],[versionId])
+2015-09-15 15:39:04,066 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_cmsDocument_published] ON [cmsDocument] ([published])
+2015-09-15 15:39:04,067 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_cmsDocument_newest] ON [cmsDocument] ([newest])
+2015-09-15 15:39:04,123 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'cmsDocument' was created
+2015-09-15 15:39:04,218 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [cmsDocumentType] ([contentTypeNodeId] INTEGER NOT NULL,
+[templateNodeId] INTEGER NOT NULL,
+[IsDefault] BIT NOT NULL CONSTRAINT [DF_cmsDocumentType_IsDefault] DEFAULT ('0'))
+2015-09-15 15:39:04,219 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [cmsDocumentType] ADD CONSTRAINT [PK_cmsDocumentType] PRIMARY KEY ([contentTypeNodeId], [templateNodeId])
+2015-09-15 15:39:04,219 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table cmsDocumentType
+2015-09-15 15:39:04,219 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table cmsDocumentType
+2015-09-15 15:39:04,220 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsDocumentType] ADD CONSTRAINT [FK_cmsDocumentType_cmsContentType_nodeId] FOREIGN KEY ([contentTypeNodeId]) REFERENCES [cmsContentType] ([nodeId])
+2015-09-15 15:39:04,221 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsDocumentType] ADD CONSTRAINT [FK_cmsDocumentType_umbracoNode_id] FOREIGN KEY ([contentTypeNodeId]) REFERENCES [umbracoNode] ([id])
+2015-09-15 15:39:04,222 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsDocumentType] ADD CONSTRAINT [FK_cmsDocumentType_cmsTemplate_nodeId] FOREIGN KEY ([templateNodeId]) REFERENCES [cmsTemplate] ([nodeId])
+2015-09-15 15:39:04,289 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'cmsDocumentType' was created
+2015-09-15 15:39:04,384 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [cmsDataType] ([pk] INTEGER NOT NULL IDENTITY(30,1),
+[nodeId] INTEGER NOT NULL,
+[propertyEditorAlias] NVARCHAR(255) NOT NULL,
+[dbType] NVARCHAR(50) NOT NULL)
+2015-09-15 15:39:04,386 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [cmsDataType] ADD CONSTRAINT [PK_cmsDataType] PRIMARY KEY ([pk])
+2015-09-15 15:39:04,386 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table cmsDataType
+2015-09-15 15:39:04,403 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table cmsDataType
+2015-09-15 15:39:04,406 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsDataType] ADD CONSTRAINT [FK_cmsDataType_umbracoNode_id] FOREIGN KEY ([nodeId]) REFERENCES [umbracoNode] ([id])
+2015-09-15 15:39:04,407 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_cmsDataType_nodeId] ON [cmsDataType] ([nodeId])
+2015-09-15 15:39:04,477 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'cmsDataType' was created
+2015-09-15 15:39:04,567 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [cmsDataTypePreValues] ([id] INTEGER NOT NULL IDENTITY(6,1),
+[datatypeNodeId] INTEGER NOT NULL,
+[value] NTEXT NULL,
+[sortorder] INTEGER NOT NULL,
+[alias] NVARCHAR(50) NULL)
+2015-09-15 15:39:04,568 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [cmsDataTypePreValues] ADD CONSTRAINT [PK_cmsDataTypePreValues] PRIMARY KEY ([id])
+2015-09-15 15:39:04,568 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table cmsDataTypePreValues
+2015-09-15 15:39:04,575 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table cmsDataTypePreValues
+2015-09-15 15:39:04,577 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsDataTypePreValues] ADD CONSTRAINT [FK_cmsDataTypePreValues_cmsDataType_nodeId] FOREIGN KEY ([datatypeNodeId]) REFERENCES [cmsDataType] ([nodeId])
+2015-09-15 15:39:04,658 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'cmsDataTypePreValues' was created
+2015-09-15 15:39:04,759 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [cmsDictionary] ([pk] INTEGER NOT NULL IDENTITY(1,1),
+[id] UniqueIdentifier NOT NULL,
+[parent] UniqueIdentifier NOT NULL,
+[key] NVARCHAR(1000) NOT NULL)
+2015-09-15 15:39:04,760 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [cmsDictionary] ADD CONSTRAINT [PK_cmsDictionary] PRIMARY KEY ([pk])
+2015-09-15 15:39:04,760 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table cmsDictionary
+2015-09-15 15:39:04,760 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table cmsDictionary
+2015-09-15 15:39:04,761 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_cmsDictionary_id] ON [cmsDictionary] ([id])
+2015-09-15 15:39:04,848 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'cmsDictionary' was created
+2015-09-15 15:39:04,947 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [cmsLanguageText] ([pk] INTEGER NOT NULL IDENTITY(1,1),
+[languageId] INTEGER NOT NULL,
+[UniqueId] UniqueIdentifier NOT NULL,
+[value] NVARCHAR(1000) NOT NULL)
+2015-09-15 15:39:04,948 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [cmsLanguageText] ADD CONSTRAINT [PK_cmsLanguageText] PRIMARY KEY ([pk])
+2015-09-15 15:39:04,948 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table cmsLanguageText
+2015-09-15 15:39:04,948 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table cmsLanguageText
+2015-09-15 15:39:04,949 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsLanguageText] ADD CONSTRAINT [FK_cmsLanguageText_cmsDictionary_id] FOREIGN KEY ([UniqueId]) REFERENCES [cmsDictionary] ([id])
+2015-09-15 15:39:05,021 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'cmsLanguageText' was created
+2015-09-15 15:39:05,120 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [umbracoLanguage] ([id] INTEGER NOT NULL IDENTITY(2,1),
+[languageISOCode] NVARCHAR(10) NULL,
+[languageCultureName] NVARCHAR(100) NULL)
+2015-09-15 15:39:05,121 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [umbracoLanguage] ADD CONSTRAINT [PK_umbracoLanguage] PRIMARY KEY ([id])
+2015-09-15 15:39:05,121 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table umbracoLanguage
+2015-09-15 15:39:05,123 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table umbracoLanguage
+2015-09-15 15:39:05,124 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_umbracoLanguage_languageISOCode] ON [umbracoLanguage] ([languageISOCode])
+2015-09-15 15:39:05,212 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'umbracoLanguage' was created
+2015-09-15 15:39:05,306 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [umbracoDomains] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[domainDefaultLanguage] INTEGER NULL,
+[domainRootStructureID] INTEGER NULL,
+[domainName] NVARCHAR(255) NOT NULL)
+2015-09-15 15:39:05,307 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [umbracoDomains] ADD CONSTRAINT [PK_umbracoDomains] PRIMARY KEY ([id])
+2015-09-15 15:39:05,307 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table umbracoDomains
+2015-09-15 15:39:05,307 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table umbracoDomains
+2015-09-15 15:39:05,308 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [umbracoDomains] ADD CONSTRAINT [FK_umbracoDomains_umbracoNode_id] FOREIGN KEY ([domainRootStructureID]) REFERENCES [umbracoNode] ([id])
+2015-09-15 15:39:05,393 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'umbracoDomains' was created
+2015-09-15 15:39:05,483 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [umbracoLog] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[userId] INTEGER NOT NULL,
+[NodeId] INTEGER NOT NULL,
+[Datestamp] DATETIME NOT NULL CONSTRAINT [DF_umbracoLog_Datestamp] DEFAULT (getdate()),
+[logHeader] NVARCHAR(50) NOT NULL,
+[logComment] NVARCHAR(4000) NULL)
+2015-09-15 15:39:05,484 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [umbracoLog] ADD CONSTRAINT [PK_umbracoLog] PRIMARY KEY ([id])
+2015-09-15 15:39:05,484 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table umbracoLog
+2015-09-15 15:39:05,484 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table umbracoLog
+2015-09-15 15:39:05,485 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_umbracoLog] ON [umbracoLog] ([NodeId])
+2015-09-15 15:39:05,558 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'umbracoLog' was created
+2015-09-15 15:39:05,654 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [cmsMacro] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[macroUseInEditor] BIT NOT NULL CONSTRAINT [DF_cmsMacro_macroUseInEditor] DEFAULT ('0'),
+[macroRefreshRate] INTEGER NOT NULL CONSTRAINT [DF_cmsMacro_macroRefreshRate] DEFAULT ('0'),
+[macroAlias] NVARCHAR(255) NOT NULL,
+[macroName] NVARCHAR(255) NULL,
+[macroScriptType] NVARCHAR(255) NULL,
+[macroScriptAssembly] NVARCHAR(255) NULL,
+[macroXSLT] NVARCHAR(255) NULL,
+[macroCacheByPage] BIT NOT NULL CONSTRAINT [DF_cmsMacro_macroCacheByPage] DEFAULT ('1'),
+[macroCachePersonalized] BIT NOT NULL CONSTRAINT [DF_cmsMacro_macroCachePersonalized] DEFAULT ('0'),
+[macroDontRender] BIT NOT NULL CONSTRAINT [DF_cmsMacro_macroDontRender] DEFAULT ('0'),
+[macroPython] NVARCHAR(255) NULL)
+2015-09-15 15:39:05,655 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [cmsMacro] ADD CONSTRAINT [PK_cmsMacro] PRIMARY KEY ([id])
+2015-09-15 15:39:05,655 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table cmsMacro
+2015-09-15 15:39:05,655 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table cmsMacro
+2015-09-15 15:39:05,656 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_cmsMacroPropertyAlias] ON [cmsMacro] ([macroAlias])
+2015-09-15 15:39:05,748 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'cmsMacro' was created
+2015-09-15 15:39:05,845 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [cmsMacroProperty] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[editorAlias] NVARCHAR(255) NOT NULL,
+[macro] INTEGER NOT NULL,
+[macroPropertySortOrder] INTEGER NOT NULL CONSTRAINT [DF_cmsMacroProperty_macroPropertySortOrder] DEFAULT ('0'),
+[macroPropertyAlias] NVARCHAR(50) NOT NULL,
+[macroPropertyName] NVARCHAR(255) NOT NULL)
+2015-09-15 15:39:05,846 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [cmsMacroProperty] ADD CONSTRAINT [PK_cmsMacroProperty] PRIMARY KEY ([id])
+2015-09-15 15:39:05,846 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table cmsMacroProperty
+2015-09-15 15:39:05,846 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table cmsMacroProperty
+2015-09-15 15:39:05,847 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsMacroProperty] ADD CONSTRAINT [FK_cmsMacroProperty_cmsMacro_id] FOREIGN KEY ([macro]) REFERENCES [cmsMacro] ([id])
+2015-09-15 15:39:05,848 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_cmsMacroProperty_Alias] ON [cmsMacroProperty] ([macro],[macroPropertyAlias])
+2015-09-15 15:39:05,930 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'cmsMacroProperty' was created
+2015-09-15 15:39:06,023 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [cmsMemberType] ([pk] INTEGER NOT NULL IDENTITY(1,1),
+[NodeId] INTEGER NOT NULL,
+[propertytypeId] INTEGER NOT NULL,
+[memberCanEdit] BIT NOT NULL CONSTRAINT [DF_cmsMemberType_memberCanEdit] DEFAULT ('0'),
+[viewOnProfile] BIT NOT NULL CONSTRAINT [DF_cmsMemberType_viewOnProfile] DEFAULT ('0'))
+2015-09-15 15:39:06,024 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [cmsMemberType] ADD CONSTRAINT [PK_cmsMemberType] PRIMARY KEY ([pk])
+2015-09-15 15:39:06,024 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table cmsMemberType
+2015-09-15 15:39:06,024 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table cmsMemberType
+2015-09-15 15:39:06,026 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsMemberType] ADD CONSTRAINT [FK_cmsMemberType_umbracoNode_id] FOREIGN KEY ([NodeId]) REFERENCES [umbracoNode] ([id])
+2015-09-15 15:39:06,027 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsMemberType] ADD CONSTRAINT [FK_cmsMemberType_cmsContentType_nodeId] FOREIGN KEY ([NodeId]) REFERENCES [cmsContentType] ([nodeId])
+2015-09-15 15:39:06,103 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'cmsMemberType' was created
+2015-09-15 15:39:06,200 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [cmsMember] ([nodeId] INTEGER NOT NULL,
+[Email] NVARCHAR(1000) NOT NULL CONSTRAINT [DF_cmsMember_Email] DEFAULT (''''),
+[LoginName] NVARCHAR(1000) NOT NULL CONSTRAINT [DF_cmsMember_LoginName] DEFAULT (''''),
+[Password] NVARCHAR(1000) NOT NULL CONSTRAINT [DF_cmsMember_Password] DEFAULT (''''))
+2015-09-15 15:39:06,201 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [cmsMember] ADD CONSTRAINT [PK_cmsMember] PRIMARY KEY ([nodeId])
+2015-09-15 15:39:06,201 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table cmsMember
+2015-09-15 15:39:06,201 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table cmsMember
+2015-09-15 15:39:06,202 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsMember] ADD CONSTRAINT [FK_cmsMember_umbracoNode_id] FOREIGN KEY ([nodeId]) REFERENCES [umbracoNode] ([id])
+2015-09-15 15:39:06,204 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsMember] ADD CONSTRAINT [FK_cmsMember_cmsContent_nodeId] FOREIGN KEY ([nodeId]) REFERENCES [cmsContent] ([nodeId])
+2015-09-15 15:39:06,285 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'cmsMember' was created
+2015-09-15 15:39:06,381 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [cmsMember2MemberGroup] ([Member] INTEGER NOT NULL,
+[MemberGroup] INTEGER NOT NULL)
+2015-09-15 15:39:06,381 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [cmsMember2MemberGroup] ADD CONSTRAINT [PK_cmsMember2MemberGroup] PRIMARY KEY ([Member], [MemberGroup])
+2015-09-15 15:39:06,382 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table cmsMember2MemberGroup
+2015-09-15 15:39:06,382 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table cmsMember2MemberGroup
+2015-09-15 15:39:06,382 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsMember2MemberGroup] ADD CONSTRAINT [FK_cmsMember2MemberGroup_cmsMember_nodeId] FOREIGN KEY ([Member]) REFERENCES [cmsMember] ([nodeId])
+2015-09-15 15:39:06,384 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsMember2MemberGroup] ADD CONSTRAINT [FK_cmsMember2MemberGroup_umbracoNode_id] FOREIGN KEY ([MemberGroup]) REFERENCES [umbracoNode] ([id])
+2015-09-15 15:39:06,466 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'cmsMember2MemberGroup' was created
+2015-09-15 15:39:06,561 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [cmsContentXml] ([nodeId] INTEGER NOT NULL,
+[xml] NTEXT NOT NULL)
+2015-09-15 15:39:06,562 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [cmsContentXml] ADD CONSTRAINT [PK_cmsContentXml] PRIMARY KEY ([nodeId])
+2015-09-15 15:39:06,562 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table cmsContentXml
+2015-09-15 15:39:06,562 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table cmsContentXml
+2015-09-15 15:39:06,563 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsContentXml] ADD CONSTRAINT [FK_cmsContentXml_cmsContent_nodeId] FOREIGN KEY ([nodeId]) REFERENCES [cmsContent] ([nodeId])
+2015-09-15 15:39:06,647 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'cmsContentXml' was created
+2015-09-15 15:39:06,739 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [cmsPreviewXml] ([nodeId] INTEGER NOT NULL,
+[versionId] UniqueIdentifier NOT NULL,
+[timestamp] DATETIME NOT NULL,
+[xml] NTEXT NOT NULL)
+2015-09-15 15:39:06,740 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [cmsPreviewXml] ADD CONSTRAINT [PK_cmsContentPreviewXml] PRIMARY KEY ([nodeId], [versionId])
+2015-09-15 15:39:06,740 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table cmsPreviewXml
+2015-09-15 15:39:06,740 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table cmsPreviewXml
+2015-09-15 15:39:06,741 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsPreviewXml] ADD CONSTRAINT [FK_cmsPreviewXml_cmsContent_nodeId] FOREIGN KEY ([nodeId]) REFERENCES [cmsContent] ([nodeId])
+2015-09-15 15:39:06,742 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsPreviewXml] ADD CONSTRAINT [FK_cmsPreviewXml_cmsContentVersion_VersionId] FOREIGN KEY ([versionId]) REFERENCES [cmsContentVersion] ([VersionId])
+2015-09-15 15:39:06,820 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'cmsPreviewXml' was created
+2015-09-15 15:39:06,916 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [cmsPropertyTypeGroup] ([id] INTEGER NOT NULL IDENTITY(12,1),
+[parentGroupId] INTEGER NULL,
+[contenttypeNodeId] INTEGER NOT NULL,
+[text] NVARCHAR(255) NOT NULL,
+[sortorder] INTEGER NOT NULL)
+2015-09-15 15:39:06,917 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [cmsPropertyTypeGroup] ADD CONSTRAINT [PK_cmsPropertyTypeGroup] PRIMARY KEY ([id])
+2015-09-15 15:39:06,918 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table cmsPropertyTypeGroup
+2015-09-15 15:39:06,924 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table cmsPropertyTypeGroup
+2015-09-15 15:39:06,925 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsPropertyTypeGroup] ADD CONSTRAINT [FK_cmsPropertyTypeGroup_cmsPropertyTypeGroup_id] FOREIGN KEY ([parentGroupId]) REFERENCES [cmsPropertyTypeGroup] ([id])
+2015-09-15 15:39:06,926 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsPropertyTypeGroup] ADD CONSTRAINT [FK_cmsPropertyTypeGroup_cmsContentType_nodeId] FOREIGN KEY ([contenttypeNodeId]) REFERENCES [cmsContentType] ([nodeId])
+2015-09-15 15:39:07,006 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'cmsPropertyTypeGroup' was created
+2015-09-15 15:39:07,103 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [cmsPropertyType] ([id] INTEGER NOT NULL IDENTITY(50,1),
+[dataTypeId] INTEGER NOT NULL,
+[contentTypeId] INTEGER NOT NULL,
+[propertyTypeGroupId] INTEGER NULL,
+[Alias] NVARCHAR(255) NOT NULL,
+[Name] NVARCHAR(255) NULL,
+[helpText] NVARCHAR(1000) NULL,
+[sortOrder] INTEGER NOT NULL CONSTRAINT [DF_cmsPropertyType_sortOrder] DEFAULT ('0'),
+[mandatory] BIT NOT NULL CONSTRAINT [DF_cmsPropertyType_mandatory] DEFAULT ('0'),
+[validationRegExp] NVARCHAR(255) NULL,
+[Description] NVARCHAR(2000) NULL)
+2015-09-15 15:39:07,104 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [cmsPropertyType] ADD CONSTRAINT [PK_cmsPropertyType] PRIMARY KEY ([id])
+2015-09-15 15:39:07,105 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table cmsPropertyType
+2015-09-15 15:39:07,125 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table cmsPropertyType
+2015-09-15 15:39:07,127 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsPropertyType] ADD CONSTRAINT [FK_cmsPropertyType_cmsDataType_nodeId] FOREIGN KEY ([dataTypeId]) REFERENCES [cmsDataType] ([nodeId])
+2015-09-15 15:39:07,128 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsPropertyType] ADD CONSTRAINT [FK_cmsPropertyType_cmsContentType_nodeId] FOREIGN KEY ([contentTypeId]) REFERENCES [cmsContentType] ([nodeId])
+2015-09-15 15:39:07,129 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsPropertyType] ADD CONSTRAINT [FK_cmsPropertyType_cmsPropertyTypeGroup_id] FOREIGN KEY ([propertyTypeGroupId]) REFERENCES [cmsPropertyTypeGroup] ([id])
+2015-09-15 15:39:07,199 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'cmsPropertyType' was created
+2015-09-15 15:39:07,295 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [cmsPropertyData] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[contentNodeId] INTEGER NOT NULL,
+[versionId] UniqueIdentifier NULL,
+[propertytypeid] INTEGER NOT NULL,
+[dataInt] INTEGER NULL,
+[dataDate] DATETIME NULL,
+[dataNvarchar] NVARCHAR(500) NULL,
+[dataNtext] NTEXT NULL)
+2015-09-15 15:39:07,296 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [cmsPropertyData] ADD CONSTRAINT [PK_cmsPropertyData] PRIMARY KEY ([id])
+2015-09-15 15:39:07,297 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table cmsPropertyData
+2015-09-15 15:39:07,297 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table cmsPropertyData
+2015-09-15 15:39:07,298 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsPropertyData] ADD CONSTRAINT [FK_cmsPropertyData_umbracoNode_id] FOREIGN KEY ([contentNodeId]) REFERENCES [umbracoNode] ([id])
+2015-09-15 15:39:07,299 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsPropertyData] ADD CONSTRAINT [FK_cmsPropertyData_cmsPropertyType_id] FOREIGN KEY ([propertytypeid]) REFERENCES [cmsPropertyType] ([id])
+2015-09-15 15:39:07,300 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_cmsPropertyData] ON [cmsPropertyData] ([id])
+2015-09-15 15:39:07,301 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_cmsPropertyData_1] ON [cmsPropertyData] ([contentNodeId])
+2015-09-15 15:39:07,303 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_cmsPropertyData_2] ON [cmsPropertyData] ([versionId])
+2015-09-15 15:39:07,305 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_cmsPropertyData_3] ON [cmsPropertyData] ([propertytypeid])
+2015-09-15 15:39:07,389 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'cmsPropertyData' was created
+2015-09-15 15:39:07,483 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [umbracoRelationType] ([id] INTEGER NOT NULL IDENTITY(2,1),
+[dual] BIT NOT NULL,
+[parentObjectType] UniqueIdentifier NOT NULL,
+[childObjectType] UniqueIdentifier NOT NULL,
+[name] NVARCHAR(255) NOT NULL,
+[alias] NVARCHAR(100) NULL)
+2015-09-15 15:39:07,484 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [umbracoRelationType] ADD CONSTRAINT [PK_umbracoRelationType] PRIMARY KEY ([id])
+2015-09-15 15:39:07,484 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table umbracoRelationType
+2015-09-15 15:39:07,487 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table umbracoRelationType
+2015-09-15 15:39:07,562 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'umbracoRelationType' was created
+2015-09-15 15:39:07,659 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [umbracoRelation] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[parentId] INTEGER NOT NULL,
+[childId] INTEGER NOT NULL,
+[relType] INTEGER NOT NULL,
+[datetime] DATETIME NOT NULL CONSTRAINT [DF_umbracoRelation_datetime] DEFAULT (getdate()),
+[comment] NVARCHAR(1000) NOT NULL)
+2015-09-15 15:39:07,660 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [umbracoRelation] ADD CONSTRAINT [PK_umbracoRelation] PRIMARY KEY ([id])
+2015-09-15 15:39:07,660 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table umbracoRelation
+2015-09-15 15:39:07,660 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table umbracoRelation
+2015-09-15 15:39:07,662 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [umbracoRelation] ADD CONSTRAINT [FK_umbracoRelation_umbracoNode] FOREIGN KEY ([parentId]) REFERENCES [umbracoNode] ([id])
+2015-09-15 15:39:07,663 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [umbracoRelation] ADD CONSTRAINT [FK_umbracoRelation_umbracoNode1] FOREIGN KEY ([childId]) REFERENCES [umbracoNode] ([id])
+2015-09-15 15:39:07,664 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [umbracoRelation] ADD CONSTRAINT [FK_umbracoRelation_umbracoRelationType_id] FOREIGN KEY ([relType]) REFERENCES [umbracoRelationType] ([id])
+2015-09-15 15:39:07,755 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'umbracoRelation' was created
+2015-09-15 15:39:07,847 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [cmsStylesheet] ([nodeId] INTEGER NOT NULL,
+[filename] NVARCHAR(100) NOT NULL,
+[content] NTEXT NULL)
+2015-09-15 15:39:07,848 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [cmsStylesheet] ADD CONSTRAINT [PK_cmsStylesheet] PRIMARY KEY ([nodeId])
+2015-09-15 15:39:07,848 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table cmsStylesheet
+2015-09-15 15:39:07,848 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table cmsStylesheet
+2015-09-15 15:39:07,850 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsStylesheet] ADD CONSTRAINT [FK_cmsStylesheet_umbracoNode_id] FOREIGN KEY ([nodeId]) REFERENCES [umbracoNode] ([id])
+2015-09-15 15:39:07,935 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'cmsStylesheet' was created
+2015-09-15 15:39:08,031 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [cmsStylesheetProperty] ([nodeId] INTEGER NOT NULL,
+[stylesheetPropertyEditor] BIT NULL,
+[stylesheetPropertyAlias] NVARCHAR(50) NULL,
+[stylesheetPropertyValue] NVARCHAR(400) NULL)
+2015-09-15 15:39:08,032 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [cmsStylesheetProperty] ADD CONSTRAINT [PK_cmsStylesheetProperty] PRIMARY KEY ([nodeId])
+2015-09-15 15:39:08,032 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table cmsStylesheetProperty
+2015-09-15 15:39:08,032 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table cmsStylesheetProperty
+2015-09-15 15:39:08,122 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'cmsStylesheetProperty' was created
+2015-09-15 15:39:08,218 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [cmsTags] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[tag] NVARCHAR(200) NULL,
+[ParentId] INTEGER NULL,
+[group] NVARCHAR(100) NULL)
+2015-09-15 15:39:08,219 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [cmsTags] ADD CONSTRAINT [PK_cmsTags] PRIMARY KEY ([id])
+2015-09-15 15:39:08,220 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table cmsTags
+2015-09-15 15:39:08,220 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table cmsTags
+2015-09-15 15:39:08,222 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsTags] ADD CONSTRAINT [FK_cmsTags_cmsTags] FOREIGN KEY ([ParentId]) REFERENCES [cmsTags] ([id])
+2015-09-15 15:39:08,222 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_cmsTags] ON [cmsTags] ([tag],[group])
+2015-09-15 15:39:08,321 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'cmsTags' was created
+2015-09-15 15:39:08,415 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [cmsTagRelationship] ([nodeId] INTEGER NOT NULL,
+[tagId] INTEGER NOT NULL,
+[propertyTypeId] INTEGER NOT NULL)
+2015-09-15 15:39:08,416 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [cmsTagRelationship] ADD CONSTRAINT [PK_cmsTagRelationship] PRIMARY KEY ([nodeId], [propertyTypeId], [tagId])
+2015-09-15 15:39:08,416 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table cmsTagRelationship
+2015-09-15 15:39:08,416 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table cmsTagRelationship
+2015-09-15 15:39:08,417 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsTagRelationship] ADD CONSTRAINT [FK_cmsTagRelationship_cmsContent] FOREIGN KEY ([nodeId]) REFERENCES [cmsContent] ([nodeId])
+2015-09-15 15:39:08,418 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsTagRelationship] ADD CONSTRAINT [FK_cmsTagRelationship_cmsTags_id] FOREIGN KEY ([tagId]) REFERENCES [cmsTags] ([id])
+2015-09-15 15:39:08,420 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsTagRelationship] ADD CONSTRAINT [FK_cmsTagRelationship_cmsPropertyType] FOREIGN KEY ([propertyTypeId]) REFERENCES [cmsPropertyType] ([id])
+2015-09-15 15:39:08,503 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'cmsTagRelationship' was created
+2015-09-15 15:39:08,600 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [umbracoUserLogins] ([contextID] UniqueIdentifier NOT NULL,
+[userID] INTEGER NOT NULL,
+[timeout] BIGINT NOT NULL)
+2015-09-15 15:39:08,601 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table umbracoUserLogins
+2015-09-15 15:39:08,601 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table umbracoUserLogins
+2015-09-15 15:39:08,601 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_umbracoUserLogins_Index] ON [umbracoUserLogins] ([contextID])
+2015-09-15 15:39:08,689 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'umbracoUserLogins' was created
+2015-09-15 15:39:08,785 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [umbracoUserType] ([id] INTEGER NOT NULL IDENTITY(5,1),
+[userTypeAlias] NVARCHAR(50) NULL,
+[userTypeName] NVARCHAR(255) NOT NULL,
+[userTypeDefaultPermissions] NVARCHAR(50) NULL)
+2015-09-15 15:39:08,786 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [umbracoUserType] ADD CONSTRAINT [PK_umbracoUserType] PRIMARY KEY ([id])
+2015-09-15 15:39:08,787 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table umbracoUserType
+2015-09-15 15:39:08,791 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table umbracoUserType
+2015-09-15 15:39:08,866 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'umbracoUserType' was created
+2015-09-15 15:39:08,963 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [umbracoUser] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[userDisabled] BIT NOT NULL CONSTRAINT [DF_umbracoUser_userDisabled] DEFAULT ('0'),
+[userNoConsole] BIT NOT NULL CONSTRAINT [DF_umbracoUser_userNoConsole] DEFAULT ('0'),
+[userType] INTEGER NOT NULL,
+[startStructureID] INTEGER NOT NULL,
+[startMediaID] INTEGER NULL,
+[userName] NVARCHAR(255) NOT NULL,
+[userLogin] NVARCHAR(125) NOT NULL,
+[userPassword] NVARCHAR(500) NOT NULL,
+[userEmail] NVARCHAR(255) NOT NULL,
+[userLanguage] NVARCHAR(10) NULL)
+2015-09-15 15:39:08,964 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [umbracoUser] ADD CONSTRAINT [PK_user] PRIMARY KEY ([id])
+2015-09-15 15:39:08,965 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table umbracoUser
+2015-09-15 15:39:08,969 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table umbracoUser
+2015-09-15 15:39:08,971 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [umbracoUser] ADD CONSTRAINT [FK_umbracoUser_umbracoUserType_id] FOREIGN KEY ([userType]) REFERENCES [umbracoUserType] ([id])
+2015-09-15 15:39:08,972 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_umbracoUser_userLogin] ON [umbracoUser] ([userLogin])
+2015-09-15 15:39:09,055 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'umbracoUser' was created
+2015-09-15 15:39:09,167 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [cmsTaskType] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[alias] NVARCHAR(255) NOT NULL)
+2015-09-15 15:39:09,168 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [cmsTaskType] ADD CONSTRAINT [PK_cmsTaskType] PRIMARY KEY ([id])
+2015-09-15 15:39:09,169 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table cmsTaskType
+2015-09-15 15:39:09,171 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table cmsTaskType
+2015-09-15 15:39:09,173 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_cmsTaskType_alias] ON [cmsTaskType] ([alias])
+2015-09-15 15:39:09,246 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'cmsTaskType' was created
+2015-09-15 15:39:09,341 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [cmsTask] ([closed] BIT NOT NULL CONSTRAINT [DF_cmsTask_closed] DEFAULT ('0'),
+[id] INTEGER NOT NULL IDENTITY(1,1),
+[taskTypeId] INTEGER NOT NULL,
+[nodeId] INTEGER NOT NULL,
+[parentUserId] INTEGER NOT NULL,
+[userId] INTEGER NOT NULL,
+[DateTime] DATETIME NOT NULL CONSTRAINT [DF_cmsTask_DateTime] DEFAULT (getdate()),
+[Comment] NVARCHAR(500) NULL)
+2015-09-15 15:39:09,342 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [cmsTask] ADD CONSTRAINT [PK_cmsTask] PRIMARY KEY ([id])
+2015-09-15 15:39:09,342 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table cmsTask
+2015-09-15 15:39:09,342 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table cmsTask
+2015-09-15 15:39:09,344 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsTask] ADD CONSTRAINT [FK_cmsTask_cmsTaskType_id] FOREIGN KEY ([taskTypeId]) REFERENCES [cmsTaskType] ([id])
+2015-09-15 15:39:09,345 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsTask] ADD CONSTRAINT [FK_cmsTask_umbracoNode_id] FOREIGN KEY ([nodeId]) REFERENCES [umbracoNode] ([id])
+2015-09-15 15:39:09,346 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsTask] ADD CONSTRAINT [FK_cmsTask_umbracoUser] FOREIGN KEY ([parentUserId]) REFERENCES [umbracoUser] ([id])
+2015-09-15 15:39:09,347 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsTask] ADD CONSTRAINT [FK_cmsTask_umbracoUser1] FOREIGN KEY ([userId]) REFERENCES [umbracoUser] ([id])
+2015-09-15 15:39:09,428 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'cmsTask' was created
+2015-09-15 15:39:09,526 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [cmsContentType2ContentType] ([parentContentTypeId] INTEGER NOT NULL,
+[childContentTypeId] INTEGER NOT NULL)
+2015-09-15 15:39:09,527 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [cmsContentType2ContentType] ADD CONSTRAINT [PK_cmsContentType2ContentType] PRIMARY KEY ([parentContentTypeId], [childContentTypeId])
+2015-09-15 15:39:09,527 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table cmsContentType2ContentType
+2015-09-15 15:39:09,527 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table cmsContentType2ContentType
+2015-09-15 15:39:09,528 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsContentType2ContentType] ADD CONSTRAINT [FK_cmsContentType2ContentType_umbracoNode_parent] FOREIGN KEY ([parentContentTypeId]) REFERENCES [umbracoNode] ([id])
+2015-09-15 15:39:09,529 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsContentType2ContentType] ADD CONSTRAINT [FK_cmsContentType2ContentType_umbracoNode_child] FOREIGN KEY ([childContentTypeId]) REFERENCES [umbracoNode] ([id])
+2015-09-15 15:39:09,601 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'cmsContentType2ContentType' was created
+2015-09-15 15:39:09,695 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [cmsContentTypeAllowedContentType] ([Id] INTEGER NOT NULL,
+[AllowedId] INTEGER NOT NULL,
+[SortOrder] INTEGER NOT NULL CONSTRAINT df_cmsContentTypeAllowedContentType_sortOrder DEFAULT ('0'))
+2015-09-15 15:39:09,696 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [cmsContentTypeAllowedContentType] ADD CONSTRAINT [PK_cmsContentTypeAllowedContentType] PRIMARY KEY ([Id], [AllowedId])
+2015-09-15 15:39:09,696 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table cmsContentTypeAllowedContentType
+2015-09-15 15:39:09,698 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table cmsContentTypeAllowedContentType
+2015-09-15 15:39:09,700 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsContentTypeAllowedContentType] ADD CONSTRAINT [FK_cmsContentTypeAllowedContentType_cmsContentType] FOREIGN KEY ([Id]) REFERENCES [cmsContentType] ([nodeId])
+2015-09-15 15:39:09,701 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [cmsContentTypeAllowedContentType] ADD CONSTRAINT [FK_cmsContentTypeAllowedContentType_cmsContentType1] FOREIGN KEY ([AllowedId]) REFERENCES [cmsContentType] ([nodeId])
+2015-09-15 15:39:09,782 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'cmsContentTypeAllowedContentType' was created
+2015-09-15 15:39:09,880 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [umbracoUser2app] ([user] INTEGER NOT NULL,
+[app] NVARCHAR(50) NOT NULL)
+2015-09-15 15:39:09,881 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [umbracoUser2app] ADD CONSTRAINT [PK_user2app] PRIMARY KEY ([user], [app])
+2015-09-15 15:39:09,881 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table umbracoUser2app
+2015-09-15 15:39:09,886 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table umbracoUser2app
+2015-09-15 15:39:09,888 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [umbracoUser2app] ADD CONSTRAINT [FK_umbracoUser2app_umbracoUser_id] FOREIGN KEY ([user]) REFERENCES [umbracoUser] ([id])
+2015-09-15 15:39:09,956 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'umbracoUser2app' was created
+2015-09-15 15:39:10,052 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [umbracoUser2NodeNotify] ([userId] INTEGER NOT NULL,
+[nodeId] INTEGER NOT NULL,
+[action] NCHAR(1) NOT NULL)
+2015-09-15 15:39:10,053 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [umbracoUser2NodeNotify] ADD CONSTRAINT [PK_umbracoUser2NodeNotify] PRIMARY KEY ([userId], [nodeId], [action])
+2015-09-15 15:39:10,053 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table umbracoUser2NodeNotify
+2015-09-15 15:39:10,053 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table umbracoUser2NodeNotify
+2015-09-15 15:39:10,055 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [umbracoUser2NodeNotify] ADD CONSTRAINT [FK_umbracoUser2NodeNotify_umbracoUser_id] FOREIGN KEY ([userId]) REFERENCES [umbracoUser] ([id])
+2015-09-15 15:39:10,056 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [umbracoUser2NodeNotify] ADD CONSTRAINT [FK_umbracoUser2NodeNotify_umbracoNode_id] FOREIGN KEY ([nodeId]) REFERENCES [umbracoNode] ([id])
+2015-09-15 15:39:10,113 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'umbracoUser2NodeNotify' was created
+2015-09-15 15:39:10,204 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [umbracoUser2NodePermission] ([userId] INTEGER NOT NULL,
+[nodeId] INTEGER NOT NULL,
+[permission] NVARCHAR(255) NOT NULL)
+2015-09-15 15:39:10,205 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [umbracoUser2NodePermission] ADD CONSTRAINT [PK_umbracoUser2NodePermission] PRIMARY KEY ([userId], [nodeId], [permission])
+2015-09-15 15:39:10,205 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table umbracoUser2NodePermission
+2015-09-15 15:39:10,205 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table umbracoUser2NodePermission
+2015-09-15 15:39:10,207 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [umbracoUser2NodePermission] ADD CONSTRAINT [FK_umbracoUser2NodePermission_umbracoUser_id] FOREIGN KEY ([userId]) REFERENCES [umbracoUser] ([id])
+2015-09-15 15:39:10,208 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Foreign Key sql -1:
+ ALTER TABLE [umbracoUser2NodePermission] ADD CONSTRAINT [FK_umbracoUser2NodePermission_umbracoNode_id] FOREIGN KEY ([nodeId]) REFERENCES [umbracoNode] ([id])
+2015-09-15 15:39:10,285 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'umbracoUser2NodePermission' was created
+2015-09-15 15:39:10,388 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Table sql -1:
+ CREATE TABLE [umbracoServer] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[address] NVARCHAR(500) NOT NULL,
+[computerName] NVARCHAR(255) NOT NULL,
+[registeredDate] DATETIME NOT NULL CONSTRAINT [DF_umbracoServer_registeredDate] DEFAULT (getdate()),
+[lastNotifiedDate] DATETIME NOT NULL,
+[isActive] BIT NOT NULL)
+2015-09-15 15:39:10,390 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Primary Key sql -1:
+ ALTER TABLE [umbracoServer] ADD CONSTRAINT [PK_umbracoServer] PRIMARY KEY ([id])
+2015-09-15 15:39:10,390 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Creating data in table umbracoServer
+2015-09-15 15:39:10,390 [26] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P1460/T25/D3] Done creating data in table umbracoServer
+2015-09-15 15:39:10,391 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_computerName] ON [umbracoServer] ([computerName])
+2015-09-15 15:39:10,392 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_umbracoServer_isActive] ON [umbracoServer] ([isActive])
+2015-09-15 15:39:10,459 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] New table 'umbracoServer' was created
+2015-09-15 15:39:10,459 [26] INFO  Umbraco.Core.Persistence.Database - [P1460/T25/D3] Finalized database schema creation
+2015-09-15 15:39:10,459 [26] INFO  Umbraco.Core.DatabaseContext - [P1460/T25/D3] Database configuration status: <p>Installation completed!</p>
+2015-09-15 15:39:10,462 [26] INFO  Umbraco.Web.Install.Controllers.InstallApiController - [P1460/T25/D3] Step completed (took 7986ms)
+2015-09-15 15:39:10,665 [26] INFO  Umbraco.Web.Install.Controllers.InstallApiController - [P1460/T25/D3] Executing installation step: User
+2015-09-15 15:39:10,961 [26] INFO  Umbraco.Core.PluginManager - [P1460/T25/D3] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-09-15 15:39:10,982 [26] INFO  Umbraco.Core.PluginManager - [P1460/T25/D3] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 21ms)
+2015-09-15 15:39:11,449 [26] INFO  Umbraco.Web.Install.Controllers.InstallApiController - [P1460/T25/D3] Step completed (took 783ms)
+2015-09-15 15:39:11,468 [26] INFO  Umbraco.Web.Install.Controllers.InstallApiController - [P1460/T25/D3] Executing installation step: UmbracoVersion
+2015-09-15 15:39:11,474 [26] INFO  Umbraco.Core.PluginManager - [P1460/T25/D3] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2015-09-15 15:39:11,487 [26] INFO  Umbraco.Core.PluginManager - [P1460/T25/D3] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 12ms)
+2015-09-15 15:39:11,495 [26] WARN  Umbraco.Web.WebBootManager - [P1460/T25/D3] Could not initialize the DefaultServerMessenger, the application is not configured or the database is not configured
+2015-09-15 15:39:11,509 [26] INFO  umbraco.content - [P1460/T25/D3] Load Xml from file...
+2015-09-15 15:39:11,620 [26] WARN  umbraco.content - [P1460/T25/D3] Failed to load Xml, file does not exist.
+2015-09-15 15:39:11,624 [26] INFO  umbraco.content - [P1460/T25/D3] Loading content from database...
+2015-09-15 15:39:11,847 [26] INFO  umbraco.content - [P1460/T25/D3] Loading content from database...
+2015-09-15 15:39:11,880 [26] INFO  Umbraco.Core.Configuration.ClientDependencyConfiguration - [P1460/T25/D3] Updated version number from 1 to 49985714
+2015-09-15 15:39:11,906 [26] INFO  Umbraco.Web.Security.WebSecurity - [P1460/T25/D3] User Id: 0 logged in
+2015-09-15 15:39:12,528 [26] ERROR UmbracoExamine.DataServices.UmbracoLogService - [P1460/T25/D3] Provider=InternalMemberIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index doesn't exist!,, IndexSet: InternalMemberIndexSet
+2015-09-15 15:39:12,596 [26] INFO  Umbraco.Web.Install.Controllers.InstallApiController - [P1460/T25/D3] Step completed (took 1127ms)
+2015-09-15 15:39:13,029 [26] ERROR UmbracoExamine.DataServices.UmbracoLogService - [P1460/T25/D3] Provider=InternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index doesn't exist!,, IndexSet: InternalIndexSet
+2015-09-15 15:39:13,529 [26] ERROR UmbracoExamine.DataServices.UmbracoLogService - [P1460/T25/D3] Provider=ExternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index doesn't exist!,, IndexSet: ExternalIndexSet
+2015-09-15 15:39:13,548 [26] INFO  umbraco.content - [P1460/T25/D3] Save Xml to file...
+2015-09-15 15:39:13,556 [26] INFO  umbraco.content - [P1460/T25/D3] Saved Xml to file.
+2015-09-15 15:39:13,715 [30] INFO  Umbraco.Core.CoreBootManager - [P1460/T27/D4] Umbraco 7.2.8 application starting on GABOR-PC
+2015-09-15 15:39:13,802 [30] INFO  Umbraco.Core.PluginManager - [P1460/T27/D4] Determining hash of code files on disk
+2015-09-15 15:39:13,813 [30] INFO  Umbraco.Core.PluginManager - [P1460/T27/D4] Hash determined (took 9ms)
+2015-09-15 15:39:13,819 [30] INFO  Umbraco.Core.PluginManager - [P1460/T27/D4] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-09-15 15:39:13,916 [30] INFO  Umbraco.Core.PluginManager - [P1460/T27/D4] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 37 (took 95ms)
+2015-09-15 15:39:14,073 [30] INFO  Umbraco.Core.PluginManager - [P1460/T27/D4] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-09-15 15:39:14,075 [30] INFO  Umbraco.Core.PluginManager - [P1460/T27/D4] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+2015-09-15 15:39:14,075 [30] INFO  Umbraco.Core.PluginManager - [P1460/T27/D4] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2015-09-15 15:39:14,077 [30] INFO  Umbraco.Core.PluginManager - [P1460/T27/D4] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 1ms)
+2015-09-15 15:39:14,093 [30] INFO  Umbraco.Core.PluginManager - [P1460/T27/D4] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-09-15 15:39:14,094 [30] INFO  Umbraco.Core.PluginManager - [P1460/T27/D4] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 0ms)
+2015-09-15 15:39:14,095 [30] INFO  Umbraco.Core.PluginManager - [P1460/T27/D4] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-09-15 15:39:14,099 [30] INFO  Umbraco.Core.PluginManager - [P1460/T27/D4] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 35 (took 3ms)
+2015-09-15 15:39:14,160 [30] INFO  Umbraco.Core.PluginManager - [P1460/T27/D4] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-09-15 15:39:14,161 [30] INFO  Umbraco.Core.PluginManager - [P1460/T27/D4] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2015-09-15 15:39:14,161 [30] INFO  Umbraco.Core.PluginManager - [P1460/T27/D4] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-09-15 15:39:14,162 [30] INFO  Umbraco.Core.PluginManager - [P1460/T27/D4] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2015-09-15 15:39:15,348 [30] INFO  Umbraco.Core.DatabaseContext - [P1460/T27/D4] CanConnect = True
+2015-09-15 15:39:15,378 [30] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P1460/T27/D4] Initializing Umbraco internal event handlers for cache refreshing
+2015-09-15 15:39:15,445 [30] INFO  Umbraco.Web.Search.ExamineEvents - [P1460/T27/D4] Initializing Examine and binding to business logic events
+2015-09-15 15:39:15,522 [30] INFO  Umbraco.Web.Search.ExamineEvents - [P1460/T27/D4] Adding examine event handlers for index providers: 3
+2015-09-15 15:39:15,531 [30] INFO  Umbraco.Core.CoreBootManager - [P1460/T27/D4] Umbraco application startup complete (took 1754ms)
+2015-09-15 15:39:15,921 [30] INFO  umbraco.content - [P1460/T27/D4] Load Xml from file...
+2015-09-15 15:39:15,922 [30] INFO  umbraco.content - [P1460/T27/D4] Loaded Xml from file.
+2015-09-15 15:39:17,288 [30] INFO  Umbraco.Core.ApplicationContext - [P1460/T27/D4] ApplicationUrl: http://localhost:53115/umbraco (UmbracoModule request)
+2015-09-15 15:39:22,777 [41] INFO  Umbraco.Core.CoreBootManager - [P1460/T40/D5] Umbraco 7.2.8 application starting on GABOR-PC
+2015-09-15 15:39:22,823 [41] INFO  Umbraco.Core.PluginManager - [P1460/T40/D5] Determining hash of code files on disk
+2015-09-15 15:39:22,832 [41] INFO  Umbraco.Core.PluginManager - [P1460/T40/D5] Hash determined (took 8ms)
+2015-09-15 15:39:22,841 [41] INFO  Umbraco.Core.PluginManager - [P1460/T40/D5] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-09-15 15:39:23,156 [41] INFO  Umbraco.Core.PluginManager - [P1460/T40/D5] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 37 (took 314ms)
+2015-09-15 15:39:23,243 [41] INFO  Umbraco.Core.PluginManager - [P1460/T40/D5] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-09-15 15:39:23,247 [41] INFO  Umbraco.Core.PluginManager - [P1460/T40/D5] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+2015-09-15 15:39:23,247 [41] INFO  Umbraco.Core.PluginManager - [P1460/T40/D5] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2015-09-15 15:39:23,251 [41] INFO  Umbraco.Core.PluginManager - [P1460/T40/D5] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 4ms)
+2015-09-15 15:39:23,267 [41] INFO  Umbraco.Core.PluginManager - [P1460/T40/D5] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-09-15 15:39:23,271 [41] INFO  Umbraco.Core.PluginManager - [P1460/T40/D5] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 4ms)
+2015-09-15 15:39:23,272 [41] INFO  Umbraco.Core.PluginManager - [P1460/T40/D5] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-09-15 15:39:23,276 [41] INFO  Umbraco.Core.PluginManager - [P1460/T40/D5] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 35 (took 4ms)
+2015-09-15 15:39:23,321 [41] INFO  Umbraco.Core.PluginManager - [P1460/T40/D5] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-09-15 15:39:23,325 [41] INFO  Umbraco.Core.PluginManager - [P1460/T40/D5] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 3ms)
+2015-09-15 15:39:23,325 [41] INFO  Umbraco.Core.PluginManager - [P1460/T40/D5] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-09-15 15:39:23,330 [41] INFO  Umbraco.Core.PluginManager - [P1460/T40/D5] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2015-09-15 15:39:24,050 [41] INFO  Umbraco.Core.DatabaseContext - [P1460/T40/D5] CanConnect = True
+2015-09-15 15:39:24,055 [41] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P1460/T40/D5] Initializing Umbraco internal event handlers for cache refreshing
+2015-09-15 15:39:24,074 [41] INFO  Umbraco.Web.Search.ExamineEvents - [P1460/T40/D5] Initializing Examine and binding to business logic events
+2015-09-15 15:39:24,132 [41] INFO  Umbraco.Web.Search.ExamineEvents - [P1460/T40/D5] Adding examine event handlers for index providers: 3
+2015-09-15 15:39:24,143 [41] INFO  Umbraco.Core.CoreBootManager - [P1460/T40/D5] Umbraco application startup complete (took 1343ms)
+2015-09-15 15:39:24,424 [41] INFO  Umbraco.Core.ApplicationContext - [P1460/T40/D5] ApplicationUrl: http://localhost:53115/umbraco (UmbracoModule request)
+2015-09-15 15:39:29,224 [41] INFO  Umbraco.Core.PluginManager - [P1460/T40/D5] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-09-15 15:39:29,235 [41] INFO  Umbraco.Core.PluginManager - [P1460/T40/D5] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 10ms)
+2015-09-15 15:39:30,139 [18] INFO  Umbraco.Core.UmbracoApplicationBase - [P1460/T1/D2] Application shutdown. Reason: ConfigurationChange
+2015-09-15 15:39:30,376 [41] INFO  Umbraco.Core.PluginManager - [P1460/T40/D5] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-09-15 15:39:30,381 [41] INFO  Umbraco.Core.PluginManager - [P1460/T40/D5] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 4ms)
+2015-09-15 15:39:30,492 [41] INFO  Umbraco.Core.PluginManager - [P1460/T40/D5] Starting resolution types of umbraco.interfaces.ITree
+2015-09-15 15:39:30,501 [41] INFO  Umbraco.Core.PluginManager - [P1460/T40/D5] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 9ms)
+2015-09-15 15:39:30,687 [41] INFO  Umbraco.Core.PluginManager - [P1460/T40/D5] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-09-15 15:39:30,688 [41] INFO  Umbraco.Core.PluginManager - [P1460/T40/D5] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 1ms)
+2015-09-15 15:39:30,772 [41] INFO  Umbraco.Core.PluginManager - [P1460/T40/D5] Starting resolution types of umbraco.interfaces.ITree
+2015-09-15 15:39:30,825 [41] INFO  Umbraco.Core.PluginManager - [P1460/T40/D5] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 52ms)
+2015-09-15 15:39:31,042 [41] INFO  Umbraco.Core.PluginManager - [P1460/T40/D5] Starting resolution types of umbraco.interfaces.IApplication
+2015-09-15 15:39:31,097 [41] INFO  Umbraco.Core.PluginManager - [P1460/T40/D5] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 55ms)
+2015-09-15 15:39:31,815 [41] INFO  Umbraco.Core.PluginManager - [P1460/T40/D5] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-09-15 15:39:31,821 [41] INFO  Umbraco.Core.PluginManager - [P1460/T40/D5] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 5ms)
+2015-09-15 15:39:43,627 [26] INFO  Umbraco.Core.UmbracoApplicationBase - [P1460/T25/D3] Application shutdown. Reason: ConfigurationChange
+2015-09-15 15:39:48,932 [30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P1460/T27/D4] [ScheduledPublishing] Terminating (immediate)
+2015-09-15 15:39:48,932 [30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P1460/T27/D4] [ScheduledPublishing] Cancelling tasks
+2015-09-15 15:39:49,033 [30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P1460/T27/D4] [ScheduledPublishing] Tasks cancelled, terminated
+2015-09-15 15:39:49,033 [30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P1460/T27/D4] [LogScrubber] Terminating (immediate)
+2015-09-15 15:39:49,033 [30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P1460/T27/D4] [LogScrubber] Cancelling tasks
+2015-09-15 15:39:49,133 [30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P1460/T27/D4] [LogScrubber] Tasks cancelled, terminated
+2015-09-15 15:39:49,133 [30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P1460/T27/D4] [KeepAlive] Terminating (immediate)
+2015-09-15 15:39:49,133 [30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P1460/T27/D4] [KeepAlive] Cancelling tasks
+2015-09-15 15:39:49,233 [30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P1460/T27/D4] [KeepAlive] Tasks cancelled, terminated
+2015-09-15 15:39:49,233 [30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P1460/T27/D4] [ScheduledTasks] Terminating (immediate)
+2015-09-15 15:39:49,233 [30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P1460/T27/D4] [ScheduledTasks] Cancelling tasks
+2015-09-15 15:39:49,333 [30] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P1460/T27/D4] [ScheduledTasks] Tasks cancelled, terminated
+2015-09-15 15:39:49,337 [30] INFO  Umbraco.Core.UmbracoApplicationBase - [P1460/T27/D4] Application shutdown. Reason: CodeDirChangeOrDirectoryRename
+2015-09-15 15:40:26,060 [41] INFO  umbraco.content - [P1460/T40/D5] Load Xml from file...
+2015-09-15 15:40:26,061 [41] INFO  umbraco.content - [P1460/T40/D5] Loaded Xml from file.
+2015-09-15 15:40:26,068 [41] INFO  umbraco.BusinessLogic.Log - [P1460/T40/D5] Log scrubbed.  Removed all items older than 2015-07-17 15:40:25
+2015-09-15 16:11:58,156 [41] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - [P1460/T40/D5] Login attempt succeeded for username lukygabor@yahoo.com from IP address ::1
+2015-09-15 16:11:58,180 [41] INFO  Umbraco.Web.Security.WebSecurity - [P1460/T40/D5] User Id: 0 logged in
+2015-09-15 16:12:41,127 [41] INFO  Umbraco.Core.PluginManager - [P1460/T40/D5] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2015-09-15 16:12:41,143 [41] INFO  Umbraco.Core.PluginManager - [P1460/T40/D5] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 15ms)
+2015-09-15 16:14:01,554 [41] INFO  umbraco.content - [P1460/T40/D5] Loading content from database...
+2015-09-15 16:14:05,601 [41] INFO  umbraco.content - [P1460/T40/D5] Save Xml to file...
+2015-09-15 16:14:05,604 [41] INFO  umbraco.content - [P1460/T40/D5] Saved Xml to file.

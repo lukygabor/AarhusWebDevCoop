@@ -1,0 +1,24 @@
+body{ font:16px/24px Helvetica, Helvetica Neue, Arial, sans-serif; }
+
+.wrapper{
+	width:90%;
+	margin:0 5%;
+}
+
+
+
+#header-container{ border-bottom: 20px solid #e44d26; }
+#footer-container{ border-top:    20px solid #e44d26; }
+#main aside      { border-top:    20px solid #e44d26; }
+
+#header-container,
+#footer-container,
+#main aside{
+	background:#b1c5f6;
+}
+
+#title{ color:#e44d26; }
+
+::-moz-selection { background: #265ee4; color: #fff; text-shadow: none; }
+::selection      { background: #265ee4; color: #fff; text-shadow: none; }
+

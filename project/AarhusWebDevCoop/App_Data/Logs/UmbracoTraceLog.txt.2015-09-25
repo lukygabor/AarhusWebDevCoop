@@ -1,0 +1,2 @@
+﻿2015-09-25 00:04:23,477 [6] INFO  Umbraco.Core.PluginManager - [P8932/T1/D2] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2015-09-25 00:04:23,482 [6] INFO  Umbraco.Core.PluginManager - [P8932/T1/D2] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 4ms)

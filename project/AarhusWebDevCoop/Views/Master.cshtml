@@ -1,0 +1,59 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = null;
+}<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>@Umbraco.Field("pageTitle", recursive: true)</title>
+    <meta name="description" content="@Umbraco.Field("metaDescription", recursive: true)">
+   
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link rel="stylesheet" href="/css/stylex.css">
+
+    <link rel="stylesheet" href="/Content/bootstrap.min.css">
+	
+	
+</head>
+<body>
+
+    <div id="header-container">
+        <header class="wrapper clearfix">
+            <h2 id="title">Aarhus Web Developer Consortium</h2>
+            
+			
+			
+			<nav>
+                
+			@Umbraco.RenderMacro("mainMenu")
+            
+			</nav>
+			
+        </header>
+    </div>
+
+    @RenderBody()
+
+    <div id="footer-container">
+        <footer class="wrapper">
+            <h5 id="title">© Gabor Lukacs - 2015 </h5>
+        </footer>
+    </div>
+
+
+<script src="/scripts/modernizr-2.0.6.min.js"></script>
+<script src="/scripts/jquery-2.1.4.min.js"></script>
+<script src="/scripts/bootstrap.min.js"></script>
+
+    <script src="~/scripts/jquery.validate.min.js"></script>
+    <script src="~/scripts/jquery.validate.unobtrusive.min.js"></script>
+
+</body>
+</html>
